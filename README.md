@@ -33,4 +33,4 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 The poem/story is my personal story(real life)
 
 Poem credit: Robert Frost
-Image credit: Kateryna Hliznitsov
+Image credit: Kateryna Hliznitsova
