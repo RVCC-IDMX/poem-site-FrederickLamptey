@@ -31,3 +31,6 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
 
 The poem/story is my personal story(real life)
+
+Poem credit: Robert Frost
+Image credit: Kateryna Hliznitsov
