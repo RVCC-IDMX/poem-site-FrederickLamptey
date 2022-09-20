@@ -55,30 +55,3 @@ svg {
 }
 /*  end of https://piccalil.li/blog/a-modern-css-reset */
 /* start of my stuff */
-:root {
-  --gap: 1rem;
-}
-body {
-  font-family: 'Lora', serif;
-  color: #333;
-}
-body,
-header,
-main,
-footer {
-  display: grid;
-  gap: var(--gap, 1rem);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1,
-h2 {
-  text-align: center;
-}
-p {
-  max-width: 60ch;
-}
-body {
-  padding: var(--gap, 1rem);
-}

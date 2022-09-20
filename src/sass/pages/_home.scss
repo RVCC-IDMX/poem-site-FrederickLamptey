@@ -2,20 +2,30 @@
 @use '../abstracts/variables' as var;
 @use '../base/typography' as type;
 
+:root {
+  --gap: 1rem;
+}
 body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
-  margin-inline: auto;
-  margin-block: 4rem;
-  /*text-align: center;*/
+  font-family: 'Lora', serif;
+  color: #333;
 }
-
-h1 {
-  color: var.$primary-color;
-  text-align: center;
-}
-
+body,
+header,
+main,
 footer {
+  display: grid;
+  gap: var(--gap, 1rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2 {
   text-align: center;
+}
+p {
+  max-width: 60ch;
+}
+body {
+  padding: var(--gap, 1rem);
 }
